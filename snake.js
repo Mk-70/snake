@@ -13,6 +13,7 @@ function snake()
     this.show = function()
     {
         fill(0,255,0);
+        noStroke();
         for(var i = 0;i<this.body.length;i++)
         {
             rect(this.body[i].x , this.body[i].y, scl, scl);
