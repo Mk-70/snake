@@ -1,4 +1,4 @@
-var scl = 20;
+var scl = 10;
 var col;
 var s;
 var f;
@@ -13,7 +13,7 @@ var curdir = 'R';
     col = width/scl;
     s = new snake();
     f = new food();
-    frameRate(50);
+    // frameRate(50);
 }
 
 
