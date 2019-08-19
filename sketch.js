@@ -13,7 +13,7 @@ var curdir = 'R';
     col = width/scl;
     s = new snake();
     f = new food();
-    frameRate(10);
+    frameRate(50);
 }
 
 
